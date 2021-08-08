@@ -33,6 +33,7 @@ public class Miner extends Person{
             BlockChain.addBlock(myBlock);
             return true;
         }
+        // New nonce values are calculated so that a hash can be reached which begins from 215.
         else{
             myBlock.nonce++;
             try {
