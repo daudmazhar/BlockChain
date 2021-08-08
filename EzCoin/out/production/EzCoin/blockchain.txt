@@ -1,0 +1,17 @@
+
+
+Block 1
+hash: b3ec47c80754e879bf7784b8d3f41b4c574a85fee338420a57526fc0bb542cd5
+prev hash: 0
+Genesis Block
+
+Block 2
+hash: ce1b24d56b6bc10ab8255e6199a5b7ebf56d4feb89d9764033773cfdf48a1879
+prev hash: b3ec47c80754e879bf7784b8d3f41b4c574a85fee338420a57526fc0bb542cd5
+nonce: 912
+Transactions: 
+Tx 0.
+sender: 1
+receiver: -1
+amount: 9.0
+
