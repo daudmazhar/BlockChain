@@ -1,7 +1,6 @@
 # BlockChain
 A basic infrastructure to depict BlockChain Implementation in accordance with its basic utility and features. 
-Each Block contains its unique hashcode, along with the hashcode of the previous block to maintain a chain. Each block contains a nonce value, which is necessary for cracking the codes for miners to win lotteries. For simplicity, we have used valid hashcodes that begin with '215'. (Just a random key for validating hashcodes used by our blockchain). The miner which gets a hash (using nonce for randomness) with the first three charachters equal to 215 wins the lottery and mines the block. The miner who successfully mines a block is also given a reward in Ez Coins.
-
+Each Block contains its unique hashcode, along with the hashcode of the previous block to maintain a chain. Each block contains a nonce value, which is necessary for cracking the codes for miners to win lotteries. For simplicity, we have used valid hashcodes that begin with '215'. (Just a random key for validating hashcodes used by our blockchain). The miner which gets a hash (using nonce for randomness) with the first three charachters equal to 215 wins the lottery and mines the block.
 #Online Market Place
 
 We have created an online market system. The users and miners for the blockchain are entered manually for convenience. A unique pair of public/private keys is assigned to each created user in order to facilitate communication, and digtal signatures. 
