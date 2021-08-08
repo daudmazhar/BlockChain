@@ -23,10 +23,7 @@ public class BlockChain {
     }
 
     public static void addBlock(Block b){
-        if(!isValid()){
-            System.out.println("BlockChain validity compromised!\n Cannot add more blocks to this chain.");
-        }
-
+        // Hashes are calculated for the block and added to chain
         b.prevHash = getLatestHash();
         try {
             b.hash = b.calculateHash("SomeMiner");
